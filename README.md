@@ -18,7 +18,7 @@ Bringing up the Docker Compose network with `app` instead of just using `up`, en
 - **php** - `:9000`
 - **redis** - `:6379`
 - **mailpit** - `:8025`
-- **phpmyadmin** - `/phpmyadmin` 
+- **phpmyadmin** - `8080` 
 
 Three additional containers are included that handle Composer, NPM, and Artisan commands *without* having to have these platforms installed on your local computer. Use the following command examples from your project root, modifying them to fit your particular use case.
 
