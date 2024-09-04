@@ -116,8 +116,8 @@ services:
 
   phpmyadmin:
     image: phpmyadmin
-    # ports:
-    #   - "8080:80"
+    ports:
+      - "8080:80"
     depends_on:
       - mysql
     environment:
