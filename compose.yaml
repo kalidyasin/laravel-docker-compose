@@ -38,6 +38,7 @@ services:
       SERVICE_NAME: mysql
     volumes:
       - ./mysql:/var/lib/mysql
+    # command: --default-authentication-plugin=mysql_native_password
     networks:
       - laravel
 
